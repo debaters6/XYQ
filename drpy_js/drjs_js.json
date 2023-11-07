@@ -27,15 +27,17 @@
       "changeable": 0,
       "ext": "./alist.json"
     },
-    {
-      "key": "Wogg",
+   { 
+      "key": "玩偶",
       "name": "玩偶",
       "type": 3,
       "api": "csp_Wogg",
       "searchable": 1,
-      "filterable": 1,
-      "switchable": 0,
-      "ext": "clan://XYQTVBox/alitoken.txt"
+      "changeable": 0,
+      "ext": {
+        "token": "影視天下第一",
+        "filter": "./js/wogg.json"
+      }
     },
     {
       "key": "小纸条",
